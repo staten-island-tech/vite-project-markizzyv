@@ -16,17 +16,31 @@ const filipaneseMenu = [
    },
    {
         itemName: "Lumpia Pork/Chicken",
-        itemType: "Appeitzer",
+        itemType: "Appetizer",
         itemDesc: "crispy eggrolls with pork or chicken and vegetables",
         itemPrice: "$9.50",
         itemImg: "",
    },
    {
         itemName: "Bulaklak",
-        itemType: "Appeitzer",
+        itemType: "Appetizer",
         itemDesc: "crispy pork slices",
         itemPrice: "$8.50",
         itemImg: "",
-   }
+   },
+   {
+      itemName: "Sisig",
+      itemType: "Main Dish",
+      itemDesc:  "crispy pork with fried vegetables",
+      itemPrice: "$30",
+      itemImg: "",
+   },
+   {
+      itemName: "Ube Mamon",
+      itemType: "Dessert",
+      itemDesc:  "ube flavored sponge cake",
+      itemPrice: "$15",
+      itemImg: "",
+   },
 ]
 
