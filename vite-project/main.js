@@ -4,10 +4,25 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 
-document.querySelector('#app').innerHTML = 
-`
 
-`
+
+const appe
+
+
+document.querySelector("#app")
+
+
+document.addEventListener('click', function(){ 
+  DOMSelectors.appe.forEach((appe) = appe.innerHTML =
+    `
+    <div>
+    <h1 class ="appeTitle">${appe.itemName}</h1>
+    </div>
+    `
+  
+  )
+
+});
 
 
 
