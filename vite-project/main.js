@@ -6,10 +6,10 @@ import { setupCounter } from './counter.js'
 
 
 
-const appe
+import { DOMSelectors } from './dom.js'
 
 
-document.querySelector("#app")
+document.querySelector("#app").insertAdjacentHTML("afterbegin",
 
 
 document.addEventListener('click', function(){ 
@@ -17,12 +17,16 @@ document.addEventListener('click', function(){
     `
     <div>
     <h1 class ="appeTitle">${appe.itemName}</h1>
+    <h2 class ="appeType">${appe.itemType}</h2>
+    <p class ="appeDisc">${appe.itemDesc}</p>
+    <h3 class ="appePrice">${appe.itemPrice}</h3>
+    <img src = "${appe.itemImg}" class ="appeImg">
     </div>
     `
-  
+
   )
 
-});
+}));
 
 
 
