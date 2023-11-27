@@ -7,26 +7,33 @@ import { setupCounter } from './counter.js'
 
 
 import { DOMSelectors } from './dom.js'
+import { filipaneseMenu } from './menu.js'
+
+function Insert (arr){
+  arr.forEach((fdish)=> fdish.document.querySelector(".flex-container").insertAdjacentHTML("afterbegin",
+  
+  `
+  <div>
+  <h1 class ="fdishTitle">${fdish.itemName}</h1>
+  <h2 class ="fdishType">${fdish.itemType}</h2>
+  <p class ="fdishDisc">${fdish.itemDesc}</p>
+  <h3 class ="fdishPrice">${fdish.itemPrice}</h3>
+  <img src = "${fdish.itemImg}" class ="fdishImg">
+  </div>
+  `
+  ));
+}
+Insert (filipaneseMenu)
 
 
-document.querySelector("#app").insertAdjacentHTML("afterbegin",
+const appe = filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType === "Appetizer");
+Insert (appe)
 
 
-document.addEventListener('click', function(){ 
-  DOMSelectors.appe.forEach((appe) = appe.innerHTML =
-    `
-    <div>
-    <h1 class ="appeTitle">${appe.itemName}</h1>
-    <h2 class ="appeType">${appe.itemType}</h2>
-    <p class ="appeDisc">${appe.itemDesc}</p>
-    <h3 class ="appePrice">${appe.itemPrice}</h3>
-    <img src = "${appe.itemImg}" class ="appeImg">
-    </div>
-    `
+console.log(filipaneseMenu)
+console.log(appe)
 
-  )
 
-}));
 
 
 

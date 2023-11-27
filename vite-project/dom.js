@@ -1,4 +1,4 @@
-const DOMSelectors = {
+/* const DOMSelectors = {
     appe: document.querySelector(".appetizers")
 }
-export {DOMSelectors}
+export {DOMSelectors} */

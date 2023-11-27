@@ -42,5 +42,21 @@ const filipaneseMenu = [
       itemPrice: "$15",
       itemImg: "",
    },
+   {
+     itemName: "Calamansi Juice",
+     itemType: "Drink",
+     itemDesc: "calamansi fruit juice beverage",
+     itemPrice: "$3.50",
+     itemImg: "",
+   },
+   {
+     itemName: "Halo-Halo",
+     itemType: "Dessert",
+     itemDesc: "shaved ice combined with milk, sweet beans, chick peas, coco gel topped w/ filipino ice cream and flan",
+     itemPrice: "$8.75",
+     itemImg: "",
+   },
+
 ]
 
+export{filipaneseMenu}
