@@ -26,12 +26,11 @@ function Insert (arr){
 Insert (filipaneseMenu)
 
 
-const appe = filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType === "Appetizer");
+const appe = function appeFilter () {
+  filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType.includes("Appetizer"));
 Insert (appe)
 
-
-console.log(filipaneseMenu)
-console.log(appe)
+}
 
 
 
