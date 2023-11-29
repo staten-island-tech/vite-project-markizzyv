@@ -60,11 +60,72 @@ const filipaneseMenu = [
      itemName: "Lechon Kawali",
      itemType: "Main Dish",
      itemDesc: "cripsy pork belly",
-     itemPrice: "$25.50",
+     itemPrice: "$30.50",
      itemImg: "https://www.seriouseats.com/thmb/3XcY0M1U6dM8uH17eEvFopQtHmE=/1500x1125/filters:fill(auto,1)/20210508-lechon-kawali-melissa-hom-2-inchChunks-seriouseats-1d53c12cee234305b921362e2106bf29.jpg",
    },
-     
-
+   {
+    itemName: "Adobo",
+    itemType: "Main Dish",
+    itemDesc: "braised pork or chicken simmered in soy sauce & vinegar",
+    itemPrice: "$15",
+    itemImg: "https://www.feastingathome.com/wp-content/uploads/2023/05/Chicken-Adobo-9.jpg"
+   },
+   {
+    itemName: "Bistek",
+    itemType: "Main Dish",
+    itemDesc: "beef sirloin in soy lemon sauce",
+    itemPrice: "$15",
+    itemImg: "https://www.eatfigsnotpigs.com/wp-content/uploads/2022/07/Bistek-Tagalog-Beefsteak_1460.jpg",
+   },
+   {
+    itemName: "Fried Tilapia",
+    itemType: "Main Dish",
+    itemDesc: "fried tilapia fillet w/ sweet and sour sauce",
+    itemPrice: "$18",
+    itemImg: "https://scm-assets.constant.co/scm/unilever/f4b5026fe1dd6b46672ba349cfbb04e4/4e67fc11-267b-43cc-8fb2-8ce07cb90ac8.jpg,"
+   },
+   {
+    itemName: "Inihaw na Liempo",
+    itemType: "Main Dish",
+    itemDesc: "grilled pork belly w/ soy-vinegar dip",
+    itemPrice: "18",
+    itemImg: "https://images.yummy.ph/yummy/uploads/2022/12/crispy-pata-640.jpg"
+   },
+   {
+    itemName: "Pancit Canton",
+    itemType: "Main Dish",
+    itemDesc: "canton noodles with stir fried vegetables",
+    itemPrice: "$18",
+    itemImg: "https://whisperofyum.com/wp-content/uploads/2022/03/pancit-canton.jpg",
+   },
+   {
+    itemName: "Camaron Rebosado",
+    itemType: "Appetizer",
+    itemDesc: "crispy battered shrimp",
+    itemPrice: "$10.50",
+    itemImg: "https://www.kawalingpinoy.com/wp-content/uploads/2014/02/camaron-rebosado-1.jpg",
+   },
+   {
+    itemName: "Taho",
+    itemType: "Dessert",
+    itemDesc: "silky tofu pieces layered with sago pearls and sweet syrup",
+    itemPrice: "$10.50",
+    itemImg: "https://www.thelittleepicurean.com/wp-content/uploads/2019/08/taho-tofu-dessert.jpg",
+   },
+   {
+    itemName: "Sago Gulaman",
+    itemType: "Drink",
+    itemDesc: "filipino favorite combining gelatin & tapioca pearls",
+    itemPrice: "$5",
+    itemImg: "https://simplybakings.com/wp-content/uploads/2020/07/Sago.jpg"
+   },
+   {
+    itemName: "Melon Chiller",
+    itemType: "Drink",
+    itemDesc: "refreshing sweet canataloupe drink with coconut gelatin",
+    itemPrice: "$5",
+    itemImg: "https://www.kawalingpinoy.com/wp-content/uploads/2015/07/melon-chiller-2.jpg",
+   },
 ]
 
 export{filipaneseMenu}

@@ -29,7 +29,7 @@ Insert (filipaneseMenu)
 const appe = function appeFilter () {
   filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType.includes("Appetizer"));
 Insert (appe)
-
+console.log(appe)
 }
 
 
