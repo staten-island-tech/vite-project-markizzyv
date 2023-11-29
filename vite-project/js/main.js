@@ -1,12 +1,11 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { setupCounter } from '../counter.js'
 
 
 
-
-import { DOMSelectors } from './dom.js'
+//imports
+import { DOMSelectors } from '../dom.js'
 import { filipaneseMenu } from './menu.js'
 //create card
 function Insert (arr){
@@ -16,28 +15,28 @@ function Insert (arr){
   //h1 class diff
   `
   <div>
-  <h1 class ="fdishTitle">${filipaneseMenu.itemName.value}</h1>   
-  <h2 class ="fdishType">${filipaneseMenu.itemType.value}</h2>
-  <p class ="fdishDesc">${filipaneseMenu.itemDesc.value}</p>
-  <h3 class ="fdishPrice">${filipaneseMenu.itemPrice.value}</h3>
-  <img src = "${filipaneseMenu.itemImg.value}" class ="fdishImg">
+  <h1 class ="fdishTitle">${fdish.itemName}</h1>   
+  <h2 class ="fdishType">${fdish.itemType}</h2>
+  <p class ="fdishDesc">${fdish.itemDesc}</p>        
+  <h3 class ="fdishPrice">${fdish.itemPrice}</h3>
+  <img src = "${fdish.itemImg}" class ="fdishImg">  
   </div>
   `
   ));
 }
 Insert (filipaneseMenu)
 
+
 //filter appe
-const appe = function appeFilter (filipaneseMenu) {
+const appe = function appeFilter () {
   filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType.includes("Appetizer"));
 
   DOMSelectors.appebtn.addEventListener("click", (event) => 
   event.preventDefault(),
 
-
   Insert(appe)
-)
-};
+)};
+
 
 
 

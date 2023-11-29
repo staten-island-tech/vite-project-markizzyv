@@ -1,8 +1,7 @@
-import { filipaneseMenu } from "./menu"
+import { filipaneseMenu } from "./js/menu"
 
 const DOMSelectors = {
     appebtn: document.querySelectorAll(".appetizers"),
-    inputName: document.querySelector("itemName")
 }
 export {DOMSelectors} 
 

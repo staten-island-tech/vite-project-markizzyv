@@ -98,10 +98,6 @@ button:focus-visible {
 
  */
 
- :root{
-  --light-blue: #2998ff;
- }
- 
- .h1{
-  background-color: var --light-blue;
- }
+:root {
+  
+}
