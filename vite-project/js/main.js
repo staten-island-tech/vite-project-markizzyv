@@ -1,36 +1,46 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { setupCounter } from '../counter.js'
 
 
 
 
 import { DOMSelectors } from './dom.js'
 import { filipaneseMenu } from './menu.js'
-
+//create card
 function Insert (arr){
   arr.forEach((fdish)=> fdish.document.querySelector(".flex-container").insertAdjacentHTML("afterbegin",
   
+
+  //h1 class diff
   `
   <div>
-  <h1 class ="fdishTitle">${fdish.itemName}</h1>
-  <h2 class ="fdishType">${fdish.itemType}</h2>
-  <p class ="fdishDisc">${fdish.itemDesc}</p>
-  <h3 class ="fdishPrice">${fdish.itemPrice}</h3>
-  <img src = "${fdish.itemImg}" class ="fdishImg">
+  <h1 class ="fdishTitle">${filipaneseMenu.itemName.value}</h1>   
+  <h2 class ="fdishType">${filipaneseMenu.itemType.value}</h2>
+  <p class ="fdishDesc">${filipaneseMenu.itemDesc.value}</p>
+  <h3 class ="fdishPrice">${filipaneseMenu.itemPrice.value}</h3>
+  <img src = "${filipaneseMenu.itemImg.value}" class ="fdishImg">
   </div>
   `
   ));
 }
 Insert (filipaneseMenu)
 
-
-const appe = function appeFilter () {
+//filter appe
+const appe = function appeFilter (filipaneseMenu) {
   filipaneseMenu.filter((filipaneseMenu) => filipaneseMenu.itemType.includes("Appetizer"));
-Insert (appe)
-console.log(appe)
-}
+
+  DOMSelectors.appebtn.addEventListener("click", (event) => 
+  event.preventDefault(),
+
+
+  Insert(appe)
+)
+};
+
+
+
 
 
 
