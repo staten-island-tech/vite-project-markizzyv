@@ -1,4 +1,4 @@
-import { filipaneseMenu } from "./js/menu"
+import { filipaneseMenu } from "./menu"
 
 const DOMSelectors = {
     appebtn: document.querySelectorAll(".appetizers"),
