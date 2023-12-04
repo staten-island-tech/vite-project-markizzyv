@@ -6,7 +6,10 @@ const filipaneseMenu = [
         itemPrice: "$45",
         itemImg: "https://2.bp.blogspot.com/-ya0q41YFKX0/V4iHM4v-iSI/AAAAAAAAEj8/RAr6CYNuRy4gO3iDVEgHMel4PK6E5G2mQCLcB/s1600/pork%2Bsinigang%2Bna%2Bbaboy.jpg",
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 0d05f2d (d)
     },
    {
         itemName: "Beef Sinigang",
@@ -129,5 +132,9 @@ const filipaneseMenu = [
    },
 ]
 
+<<<<<<< HEAD
 
 export{filipaneseMenu}
+=======
+export{filipaneseMenu}
+>>>>>>> parent of 0d05f2d (d)

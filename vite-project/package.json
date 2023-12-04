@@ -8,7 +8,21 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+<<<<<<< HEAD
   "devDependencies": {
     "vite": "^5.0.0"
   }
+=======
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/vite-project-markizzyv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/vite-project-markizzyv/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/vite-project-markizzyv#readme"
+>>>>>>> parent of 0d05f2d (d)
 }
