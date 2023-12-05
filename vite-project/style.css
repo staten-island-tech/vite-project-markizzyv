@@ -7,16 +7,16 @@
   --beige: beige;
   --darkbeige:burlywood;
 
- 
+/* 
   --primary: var(--peach);
   --cardcolor:  var(--beige);
-  --shadowcolor: var(--darkbeige); 
+  --shadowcolor: var(--darkbeige); */
 }
 
 .themebarney{
   --primary: var(--lightpurple);
   --cardcolor: var(--lighterishblue);
-  --shadowcolor: var(--greyishbluething);
+  --shadowcolor: var(var(--greyishbluething);)
 
 
 }
@@ -33,7 +33,7 @@ main {
 }
 
  body {
-  background-color: var(--primary) ;
+  background-color: var(--beige) ;
   margin: 50px
   
   
@@ -55,7 +55,7 @@ main {
 .card {
   width: 25%;
   align-items: center;
-  background-color: var(--cardcolor);
+  background-color: var(--);
   flex-direction: column;
   display: flex;
   justify-content: space-between;

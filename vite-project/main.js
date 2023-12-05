@@ -75,19 +75,7 @@ DOMSelectors.drinkz.addEventListener("click", function () {
   Insert(drin);
 });
 
-
-DOMSelectors.themebtn.addEventListener("click", function () {
-  if(document.body.classList.contains("themefilo")) {
-    document.body.classList.add("themebarney");
-    document.body.classList.remove("themefilo");
-  } else {
-    document.body.classList.add("themefilo");
-    document.body.classList.remove("themebarney");
-  }
-})
-
-
-
+console.log(drin)
 
 
 
