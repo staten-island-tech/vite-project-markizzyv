@@ -1,0 +1,87 @@
+
+:root {
+  --lightpurple: rgb(226, 108, 252);
+  --greyishbluething: rgb(86, 100, 187);
+  --lighterishblue: rgb(111, 155, 237);
+  --peach: peachpuff;
+  --beige: beige;
+  --darkbeige:burlywood;
+
+ 
+  --primary: var(--peach);
+  --cardcolor:  var(--beige);
+  --shadowcolor: var(--darkbeige); 
+}
+
+.themebarney{
+  --primary: var(--lightpurple);
+  --cardcolor: var(--lighterishblue);
+  --shadowcolor: var(--greyishbluething);
+
+
+}
+
+.themefilo{
+  --primary: var(var(--peach));
+  --cardcolor: var(--beige);
+  --shadowcolor: var(--darkbeige)
+}
+
+
+main {
+  text-align: center;
+}
+
+ body {
+  background-color: var(--primary) ;
+  margin: 50px
+  
+  
+ }
+
+ h1{
+  text-align: center;
+  margin: 25px;
+ }
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 25%;
+  align-items: center;
+  background-color: var(--cardcolor);
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 25px;
+  margin: 15px;
+  box-shadow: 10px 10px 6px 7px var(--shadowcolor);
+  
+}
+
+.fdishImg {
+  width: 90%;
+}
+
+h2 {
+  margin-top: 15px;
+  text-align: center;
+
+}
+
+h3{
+  margin: 10px;
+  font-size: 20px;
+}
+
+p{
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}

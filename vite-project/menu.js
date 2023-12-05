@@ -83,7 +83,7 @@ const filipaneseMenu = [
     itemType: "Main Dish",
     itemDesc: "fried tilapia fillet w/ sweet and sour sauce",
     itemPrice: "$18",
-    itemImg: "https://scm-assets.constant.co/scm/unilever/f4b5026fe1dd6b46672ba349cfbb04e4/4e67fc11-267b-43cc-8fb2-8ce07cb90ac8.jpg,"
+    itemImg: "https://daavifoods.com/wp-content/uploads/2021/06/IMG-6723-scaled.jpg"
    },
    {
     itemName: "Inihaw na Liempo",
@@ -130,4 +130,4 @@ const filipaneseMenu = [
 ]
 
 
-export{filipaneseMenu}
+export {filipaneseMenu}
