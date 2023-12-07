@@ -32,6 +32,7 @@ function Insert (arr){
 Insert (filipaneseMenu)
 
 
+
 function removeOther () {
   const removecard = document.querySelectorAll(".card");
   removecard.forEach((removing)=> removing.remove())
@@ -88,9 +89,7 @@ DOMSelectors.themebtn.addEventListener("click", function () {
 
 
 
-
-
+// let buttons = filipaneseMenu.filter((allbutts)=> DOMSelectors.allbutts.includes("Appetizer", "Main Dish", "Dessert", "Drinks"))
 
  
-
 
