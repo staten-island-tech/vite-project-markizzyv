@@ -89,7 +89,7 @@ DOMSelectors.themebtn.addEventListener("click", function () {
 
 
 
-// let buttons = filipaneseMenu.filter((allbutts)=> DOMSelectors.allbutts.includes("Appetizer", "Main Dish", "Dessert", "Drinks"))
+// let buttons = filipaneseMenu.filter((allbutts)=> allbutts.includes("Appetizer", "Main Dish", "Dessert", "Drinks"))
 
  
 
