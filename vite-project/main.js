@@ -15,8 +15,8 @@ function Insert (arr){
   //h1 class diff
   `
   <div class= "card">
-  <h2 class ="fdishTitle">${fdish.itemName}</h1>  
-  <h3 class ="fdishType">${fdish.itemType}</h2>
+  <h1 class ="fdishTitle">${fdish.itemName}</h1>  
+  <h2 class ="fdishType">${fdish.itemType}</h2>
   <p class ="fdishDesc">${fdish.itemDesc}</p>
   <h3 class ="fdishPrice">${fdish.itemPrice}</h3>
   <img src = "${fdish.itemImg}" class ="fdishImg">
